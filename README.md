@@ -25,7 +25,7 @@ Run "pip install -r backend\requirements.txt"<br>
 # Run the project
 Step 1: run "uvicorn backend.main:app --reload"<br>
 Step 2: open browser and go to "http://127.0.0.1:8000/"<br>
-2.1 enter login credentials, Username = username1, Password = password1<br>
+2.1 enter login credentials: Username = username1, Password = password1<br>
 2.2 click login<br>
 Step 3: open browser and go to "http://127.0.0.1:8000/docs"<br>
 3.1 Click authorize button on top right corner<br>
