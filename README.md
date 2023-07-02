@@ -23,17 +23,17 @@ Step 5: Install the dependencies<br>
 Run "pip install -r backend\requirements.txt"<br>
 
 # Run the project
-Step 1: run "uvicorn backend.main:app --reload"
-Step 2: open browser and go to "http://127.0.0.1:8000/"
-2.1 enter login credentials, Username = username1, Password = password1
-2.2 click login
-Step 3: open browser and go to "http://127.0.0.1:8000/docs"
-3.1 Click authorize button on top right corner
-3.2 Enter login credentials stated in 2.1
-3.3 Expand POST /user
-3.4 Click "try it out" button in the parameter tab and click "execute"
-3.5 The response will show the user details 
-(This shows that the authentication token can be used to retrieve the logined user details; authenticate them before accessing to protected page by checking if the user details are not empty)
+Step 1: run "uvicorn backend.main:app --reload"<br>
+Step 2: open browser and go to "http://127.0.0.1:8000/"<br>
+2.1 enter login credentials, Username = username1, Password = password1<br>
+2.2 click login<br>
+Step 3: open browser and go to "http://127.0.0.1:8000/docs"<br>
+3.1 Click authorize button on top right corner<br>
+3.2 Enter login credentials stated in 2.1<br>
+3.3 Expand POST /user<br>
+3.4 Click "try it out" button in the parameter tab and click "execute"<br>
+3.5 The response will show the user details <br>
+(This shows that the authentication token can be used to retrieve the logined user details; authenticate them before accessing to protected page by checking if the user details are not empty)<br>
 
 
 
